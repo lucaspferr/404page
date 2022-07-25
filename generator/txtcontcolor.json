@@ -1,0 +1,86 @@
+{
+    "project-settings": {
+      "code-owner": "Page 404",
+      "bundle-path": "../core/src/main/java",
+      "test-path": "../core/src/test/java",
+      "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+      "component-path": "page404",
+      "model-interface-pkg": "com.page404.core.models",
+      "model-impl-pkg": "com.page404.core.models.impl"
+    },
+    "name": "container-404",
+    "title": "Container 404",
+    "group": "Page 404 - Content",
+    "type": "components",
+    "options": {
+      "js": false,
+      "jstxt": false,
+      "css": false,
+      "csstxt": false,
+      "html": false,
+      "html-content": false,
+      "slingmodel": true,
+      "testclass": false,
+      "junit-major-version": 5,
+      "content-exporter": true,
+      "model-adaptables": [
+        "request"
+      ],
+      "generic-javadoc": false,
+      "properties-tabs": [
+        {
+            "id": "text-tab",
+            "label": "Text ta",
+            "fields": [
+                "title",
+                "paragraph",
+                "buttontext",
+                "buttontextcolor",
+                "buttoncolor"
+            ]
+        }
+      ],
+      "properties": [
+        {
+          "field": "title",
+          "description": "Adds a title",
+          "label": "Type the desired title.",
+          "type": "textfield",
+          "json-expose": true,
+          "json-property": "title"
+        },
+        {
+          "field": "paragraph",
+          "description": "Adds a paragraph",
+          "label": "Type the desired paragraph.",
+          "type": "textarea",
+          "json-expose": true,
+          "json-property": "paragraph"
+        },
+        {
+          "field": "buttontext",
+          "description": "Adds a button text",
+          "label": "Type the desired button text.",
+          "type": "textfield",
+          "json-expose": true,
+          "json-property": "buttontext"
+        },
+        {
+          "field": "buttontextcolor",
+          "description": "Adds a button text color",
+          "label": "Choose the button font color",
+          "type": "textfield",
+          "json-expose": true,
+          "json-property": "buttontextcolor"
+        },
+        {
+          "field": "buttoncolor",
+          "description": "Adds a button background color",
+          "label": "Choose the button BG color",
+          "type": "textfield",
+          "json-expose": true,
+          "json-property": "buttoncolor"
+        }
+      ]
+    }
+  }

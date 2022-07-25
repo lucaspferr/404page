@@ -16,6 +16,7 @@
 
 /* Global styles */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 
 html,
@@ -39,11 +40,18 @@ h5,
 p,
 .nav-container,
 .rw-box {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-  color: #000000;
+  font-family: 'Space Mono', monospace !important;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: none !important;
+  margin: 0;
+  color: #333333;
 }
 
 h1{
   font-family: 'Inconsolata', monospace !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
   font-weight: 700;
 }

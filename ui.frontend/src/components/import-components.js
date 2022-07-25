@@ -23,6 +23,7 @@ import './containers/Parag404';
 import './containers/TextContainer';
 import './containers/Header404';
 import './containers/Footer404';
+import './containers/Container404';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
