@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
     display: flex;
-    font-family: 'Inconsolata', monospace;
     align-items: flex-start;
     margin-left: 5%;
     margin-bottom: 5%;
