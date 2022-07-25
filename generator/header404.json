@@ -1,0 +1,40 @@
+{
+    "project-settings": {
+      "code-owner": "Page 404",
+      "bundle-path": "../core/src/main/java",
+      "test-path": "../core/src/test/java",
+      "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+      "component-path": "page404",
+      "model-interface-pkg": "com.page404.core.models",
+      "model-impl-pkg": "com.page404.core.models.impl"
+    },
+    "name": "header-404",
+    "title": "Header 404",
+    "group": "Page 404 - Content",
+    "type": "components",
+    "options": {
+      "js": false,
+      "jstxt": false,
+      "css": false,
+      "csstxt": false,
+      "html": false,
+      "html-content": false,
+      "slingmodel": true,
+      "testclass": false,
+      "junit-major-version": 5,
+      "content-exporter": true,
+      "model-adaptables": [
+        "request"
+      ],
+      "generic-javadoc": false,
+      "properties": [
+        {
+          "field": "headertext",
+          "label": "Type the desired text.",
+          "type": "textfield",
+          "json-expose": true,
+          "json-property": "headertext"
+        }
+      ]
+    }
+  }

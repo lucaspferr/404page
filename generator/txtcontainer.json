@@ -1,0 +1,68 @@
+{
+    "project-settings": {
+      "code-owner": "Page 404",
+      "bundle-path": "../core/src/main/java",
+      "test-path": "../core/src/test/java",
+      "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+      "component-path": "page404",
+      "model-interface-pkg": "com.page404.core.models",
+      "model-impl-pkg": "com.page404.core.models.impl"
+    },
+    "name": "text-container",
+    "title": "Text Container",
+    "group": "Page 404 - Content",
+    "type": "components",
+    "options": {
+      "js": false,
+      "jstxt": false,
+      "css": false,
+      "csstxt": false,
+      "html": false,
+      "html-content": false,
+      "slingmodel": true,
+      "testclass": false,
+      "junit-major-version": 5,
+      "content-exporter": true,
+      "model-adaptables": [
+        "request"
+      ],
+      "generic-javadoc": false,
+      "properties-tabs": [
+        {
+            "id": "text-tab",
+            "label": "Text ta",
+            "fields": [
+                "title",
+                "paragraph",
+                "buttontext"
+            ]
+        }
+      ],
+      "properties": [
+        {
+          "field": "title",
+          "description": "Adds a title",
+          "label": "Type the desired title.",
+          "type": "textfield",
+          "json-expose": true,
+          "json-property": "title"
+        },
+        {
+          "field": "paragraph",
+          "description": "Adds a paragraph",
+          "label": "Type the desired paragraph.",
+          "type": "textarea",
+          "json-expose": true,
+          "json-property": "paragraph"
+        },
+        {
+          "field": "buttontext",
+          "description": "Adds a button text",
+          "label": "Type the desired button text.",
+          "type": "textfield",
+          "json-expose": true,
+          "json-property": "buttontext"
+        }
+      ]
+    }
+  }

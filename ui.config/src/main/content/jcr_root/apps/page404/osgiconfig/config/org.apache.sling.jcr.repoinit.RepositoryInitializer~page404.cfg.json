@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/page404",
+        "create path (nt:unstructured) /content/dam/page404/jcr:content",
+        "set properties on /content/dam/page404/jcr:content\n  set cq:conf{String} to /conf/page404\n  set jcr:title{String} to \"Page 404\"\nend"
+    ]
+}
